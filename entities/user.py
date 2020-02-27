@@ -2,6 +2,6 @@ from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
-class Admin:
-    admin_id: str
+class User:
+    user_id: str
     name: str
